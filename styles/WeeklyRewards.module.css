@@ -1,0 +1,47 @@
+.rewards-group {
+    margin-top: var(--vertical-space);
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.rewards-group > p {
+    margin-top: 0;
+}
+
+.rewards-list-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.reward {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 0;
+    min-width: 4rem;
+}
+
+.reward img {
+    height: 2rem;
+    margin-bottom: 0.4rem;
+}
+
+.reward > p {
+    margin-top: 0;
+}
+
+.reward .reward-name {
+    text-align: center;
+}
+
+.fade-enter {
+    opacity: 0;
+    transform: translateY(0.7rem);
+}
+
+.fade-enter-active {
+    opacity: 1;
+    transform: unset;
+    transition: 0.2s ease-in opacity, 0.1s ease-in transform;
+}
